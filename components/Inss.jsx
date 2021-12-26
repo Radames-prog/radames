@@ -12,7 +12,7 @@ export default function Inss() {
         value={salario}
         onChange={(e) => setSalario(e.target.value)}
         className={`font-bold text-4xl text-center 
-        rounded-full py-3 px-6... items-center w-1/2 md:w-full ... bg-gray-200`}
+        rounded-full py-3 px-6... items-center w-1/2 md:w-full ... bg-red-300`}
       />
       </div>
       <div className={`text-center`}>
