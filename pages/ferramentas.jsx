@@ -3,7 +3,7 @@ import Inss from "../components/Inss";
 import NavBar from "../components/NavBar";
 import SubTitle from "../components/Subtitle";
 import Title from "../components/Title";
-import calcularIr from "../functions/calculaIr";
+import HoraExtra from "../components/HoraExtra";
 
 export default function ferramentas(){
     return(
@@ -21,7 +21,7 @@ export default function ferramentas(){
                     <Inss/>
             </div>
             <div>
-              {calcularIr(1904)}
+              <HoraExtra/>
             </div>
         </div>
     )
