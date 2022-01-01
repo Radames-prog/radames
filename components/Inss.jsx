@@ -25,26 +25,26 @@ export default function Inss() {
           <table className={`w-full`}>
             <thead>
             <tr className={`text-md font-semibold tracking-wide text-left text-gray-900 bg-gray-100 uppercase border-b border-gray-600`}>
-              <th className={`px-4 py-3 text-center`}>Salário do contribunte</th>
-              <th className={`px-4 py-3 text-center`}>Aliquota</th>
+              <th className={`px-4 py-3 text-center text-xl`}>Salário do contribunte</th>
+              <th className={`px-4 py-3 text-center text-xl`}>Aliquota</th>
             </tr>
             </thead>
             <tbody>
               <tr>
-                <td className={`px-4 py-3 border`}>Até R$ 1.100</td>
-                <td className={`px-4 py-3 border`}>7,5%</td>
+                <td className={`px-4 py-3 border text-xl`}>Até R$ 1.100</td>
+                <td className={`px-4 py-3 border text-xl`}>7,5%</td>
               </tr>
               <tr>
-              <td className={`px-4 py-3 border`}>De R$ 1.100,01 a R$ 2.203,48</td>
-                <td className={`px-4 py-3 border`}>9%</td>
+              <td className={`px-4 py-3 border text-xl`}>De R$ 1.100,01 a R$ 2.203,48</td>
+                <td className={`px-4 py-3 border text-xl`}>9%</td>
               </tr>
               <tr>
-                <td className={`px-4 py-3 border`}>De R$ 2.203,49 até R$ 3.305,22</td>
-                <td className={`px-4 py-3 border`}>12%</td>
+                <td className={`px-4 py-3 border text-xl`}>De R$ 2.203,49 até R$ 3.305,22</td>
+                <td className={`px-4 py-3 border text-xl`}>12%</td>
               </tr>
               <tr>
-                <td className={`px-4 py-3 border`}>De R$ 3.305,23 até R$ 6.433,57</td>
-                <td className={`px-4 py-3 border`}>14%</td>
+                <td className={`px-4 py-3 border text-xl`}>De R$ 3.305,23 até R$ 6.433,57</td>
+                <td className={`px-4 py-3 border text-xl`}>14%</td>
               </tr>
             </tbody>
           </table>

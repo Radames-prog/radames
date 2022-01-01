@@ -36,6 +36,7 @@ export default function calculaInss(salario) {
     return faixa4 = aliqutaFaixa1 + aliqutaFaixa2 + aliqutaFaixa3 + aliqutaFaixa4
   }else{
       return 0
+      
   }
  
 }

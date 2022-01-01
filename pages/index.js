@@ -1,6 +1,7 @@
 import { loadGetInitialProps } from 'next/dist/shared/lib/utils'
 import Head from 'next/head'
 import Card from '../components/Card'
+import Inss from '../components/Inss'
 import NavBar from '../components/NavBar'
 import SubTitle from '../components/Subtitle'
 import Title from '../components/Title'
@@ -22,7 +23,7 @@ export default function Home() {
       <div>
         <SubTitle subTitle={"Como estudante constante de programação, este é um ambiente de testes para que possamos transformar ideias em realidade!!"}/>
       </div>
-      
+    
 
       
     </div>
