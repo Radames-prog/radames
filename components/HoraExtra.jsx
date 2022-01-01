@@ -11,7 +11,7 @@ const [minutosMes, setMinutosMes] = useState(0);
 const [percentual, setPercentual] = useState(50);
     return (
     
-    <div className={`max-w-lg mx-12 w-full bg-indigo-600`}>
+    <div className={`items-center`}>
   <Title title={"Calculadora de Horas Extras"}/>
         <div className={`w-full md:w-1/2 px-3 mb-6 md:mb-0`} >
         <label className={`block text-gray-700 text-sm font-bold mb-2`}>

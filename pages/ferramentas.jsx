@@ -20,7 +20,7 @@ export default function ferramentas(){
             <div className={`m-10`}>                
                     <Inss/>
             </div>
-            <div>
+            <div className={`items-center`}>
               <HoraExtra/>
             </div>
         </div>
