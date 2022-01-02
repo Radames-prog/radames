@@ -20,7 +20,7 @@ const [percentual, setPercentual] = useState(50);
         <input
         type="number"
         value={salario}
-        onChange={(e) => setSalario(e.target.value)}
+        onChange={(e) => setSalario(e.target.valueAsNumber)}
         className={`shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline`}
         placeholder="Informe a remuneração"
       />
@@ -33,7 +33,7 @@ const [percentual, setPercentual] = useState(50);
         <input
         type="number"
         value={horasMes}
-        onChange={(e) => setHorasMes(e.target.value)}
+        onChange={(e) => setHorasMes(e.target.valueAsNumber)}
         className={`shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline`}
         placeholder="Horas trabalhadas no mês"
       />
@@ -45,8 +45,9 @@ const [percentual, setPercentual] = useState(50);
       </label>
         <input
         type="number"
+        disabled=""
         value={minutosMes}
-        onChange={(e) => setMinutosMes(e.target.value)}
+        onChange={(e) => setMinutosMes(e.target.valueAsNumber)}
         className={`shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline`}
         placeholder="Minutos no mês"
       />
@@ -59,7 +60,7 @@ const [percentual, setPercentual] = useState(50);
         <input
         type="number"
         value={horasExtras}
-        onChange={(e) => setHorasExtras(e.target.value)}
+        onChange={(e) => setHorasExtras(e.target.valueAsNumber)}
         className={`shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline`}
         placeholder="Horas Extras"
       />
@@ -74,7 +75,7 @@ const [percentual, setPercentual] = useState(50);
         placeholder="Minutos Extras"
         type="number"
         value={minutosExtras}
-        onChange={(e) => setMinutosExtras(e.target.value)}
+        onChange={(e) => setMinutosExtras(e.target.valueAsNumber)}
 
         
       />
@@ -87,7 +88,7 @@ const [percentual, setPercentual] = useState(50);
         <input
         type="number"
         value={percentual}
-        onChange={(e) => setPercentual(e.target.value)}
+        onChange={(e) => setPercentual(e.target.valueAsNumber)}
         className={`shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline`}
         placeholder="Informe o pecentual 50 100 60 75 ou 80"
       />
