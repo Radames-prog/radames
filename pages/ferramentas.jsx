@@ -12,7 +12,7 @@ export default function ferramentas(){
                 <NavBar/>
             </div>
             <div>
-            <Title title={"Calculadora de inss 2021"}/>
+            <Title title={"Calculadora de inss 2022"}/>
             </div>
             <div>
                 <SubTitle subTitle={"Informe abaixo o valor da remuneração para ser calculado o valor do INSS"} />
