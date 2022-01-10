@@ -1,20 +1,20 @@
 export default function calculaInss(salario) {
-  let faixa1 = 1100;
-  let faixa2 = 2203.48;
-  let faixa3 = 3305.22;
-  let faixa4 = 6433.57;
+  let faixa1 = 1212;
+  let faixa2 = 2427.79;
+  let faixa3 = 3641.69;
+  let faixa4 = 7088.50;
 
   if (salario <= 1100) {
     return salario * 0.075;
-  } else if (salario >= 1100 && salario <= 2203.48) {
+  } else if (salario >= 1100 && salario <= 2427.79) {
     let faixas = faixa1 * 0.075;
     return (salario - faixa1) * 0.09 + faixas;
-  } else if (salario >= 2203.48 && salario <= 3305.22) {
+  } else if (salario >= 2427.79 && salario <= 3641.69) {
     let aliqutaFaixa1 = faixa1 * 0.075;
     let aliqutaFaixa2 = (faixa2 - faixa1) * 0.09;
     let aliqutaFaixa3 = (salario - faixa1 - (faixa2 - faixa1)) * 0.12;
     return (salario = aliqutaFaixa1 + aliqutaFaixa2 + aliqutaFaixa3);
-  } else if (salario >= 3305.22 && salario <= 6433.57) {
+  } else if (salario >= 3641.69 && salario <= 7088.50) {
     let aliqutaFaixa1 = faixa1 * 0.075;
     console.log(aliqutaFaixa1,"faixa1")
     let aliqutaFaixa2 = (faixa2 - faixa1) * 0.09;

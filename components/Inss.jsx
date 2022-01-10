@@ -20,7 +20,7 @@ export default function Inss() {
           <div className={`font-bold text-3xl`}>
       {calculaInss(salario).toFixed(2)}
       <div>
-        <h2>Tabela inss 2022</h2>
+        <h2>Tabela de INSS 2022</h2>
         <div className={`w-full mb-8 overflow-hidden rounded-lg shadow-lg`}>
           <table className={`w-full`}>
             <thead>
@@ -31,19 +31,19 @@ export default function Inss() {
             </thead>
             <tbody>
               <tr>
-                <td className={`px-4 py-3 border text-xl`}>Até R$ 1.100</td>
+                <td className={`px-4 py-3 border text-xl`}>Até R$ 1.212</td>
                 <td className={`px-4 py-3 border text-xl`}>7,5%</td>
               </tr>
               <tr>
-              <td className={`px-4 py-3 border text-xl`}>De R$ 1.100,01 a R$ 2.203,48</td>
+              <td className={`px-4 py-3 border text-xl`}>De R$ 1.212,01 a R$ 2.427,79</td>
                 <td className={`px-4 py-3 border text-xl`}>9%</td>
               </tr>
               <tr>
-                <td className={`px-4 py-3 border text-xl`}>De R$ 2.203,49 até R$ 3.305,22</td>
+                <td className={`px-4 py-3 border text-xl`}>De R$ 2.427,80 até R$ 3.641,69</td>
                 <td className={`px-4 py-3 border text-xl`}>12%</td>
               </tr>
               <tr>
-                <td className={`px-4 py-3 border text-xl`}>De R$ 3.305,23 até R$ 6.433,57</td>
+                <td className={`px-4 py-3 border text-xl`}>De R$ 3.641,70 até R$ 7.088,50</td>
                 <td className={`px-4 py-3 border text-xl`}>14%</td>
               </tr>
             </tbody>

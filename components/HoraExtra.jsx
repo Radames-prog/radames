@@ -3,7 +3,7 @@ import salarioMinuto from "../functions/calcularHorasExtras"
 import Title from "./Title";
 
 export default function HoraExtra(){
-const [salario, setSalario] = useState(1100);
+const [salario, setSalario] = useState(1212);
 const [horasExtras, setHorasExtras] = useState(1); 
 const [minutosExtras, setMinutosExtras] = useState(0);
 const [horasMes, setHorasMes] = useState(220);
@@ -41,7 +41,7 @@ const [percentual, setPercentual] = useState(50);
 
         <div className={`w-full md:w-1/2 px-3 mb-6 md:mb-0`}>
         <label className={`block text-gray-700 text-sm font-bold mb-2`}>
-        Minutos Mensal
+        Minutos no Mês
       </label>
         <input
         type="number"
@@ -94,7 +94,7 @@ const [percentual, setPercentual] = useState(50);
       />
       <div className={`text-2xl`}>
           <h2>Resultado Horas Extras: </h2>
-          {salarioMinuto(salario, horasExtras, minutosExtras, horasMes, minutosMes, percentual)}
+          {salarioMinuto(salario, horasExtras, minutosExtras, horasMes, minutosMes, percentual).toFixed(2)}
       </div>
       
         </div>

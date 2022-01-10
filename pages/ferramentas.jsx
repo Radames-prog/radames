@@ -15,7 +15,7 @@ export default function ferramentas(){
             <Title title={"Calculadora de inss 2021"}/>
             </div>
             <div>
-                <SubTitle subTitle={"Informe abaixo o valor da remuneração para ser calculado o valor no Inss"} />
+                <SubTitle subTitle={"Informe abaixo o valor da remuneração para ser calculado o valor do INSS"} />
             </div>
             <div className={`m-10`}>                
                     <Inss/>
